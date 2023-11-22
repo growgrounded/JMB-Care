@@ -1,17 +1,20 @@
-3. Open the `index.html` file in a web browser to view the website.
+# JMB Care Website
 
-## Development
-This website uses HTML and CSS for its development. Ensure you have a basic understanding of these technologies to make modifications.
+## Overview
+This is the official website for JMB Care, an innovative consulting company specializing in substance abuse therapy.
 
-## Contact Information
-For further inquiries or to seek our consulting services, reach out via email at info@jmbcare.com.
+## How to Use
+1. Download or clone the repository.
+2. Open `index.html` in a web browser to view the website.
 
-## Acknowledgments
-Special thanks to all contributors and consultants who have made this project possible.
+## Features
+- Information about JMB Care's services and philosophy.
+- Contact information for inquiries and services.
+
+## Contact
+- Email: info@jmbcare.com
 
 ## License
-[MIT License](LICENSE)
+[MIT](LICENSE)
 
----
-
-© 2023 JMB Care. All rights reserved.
+© 2023 JMB Care. All Rights Reserved.

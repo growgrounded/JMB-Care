@@ -21,6 +21,15 @@ body {
     padding: 5px 0;
 }
 
+.nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
 .nav a {
     color: white;
     text-decoration: none;
@@ -68,6 +77,10 @@ h1, h2 {
 
     .header, .footer {
         padding: 10px 0;
+    }
+
+    .nav ul {
+        flex-direction: column;
     }
 }
 

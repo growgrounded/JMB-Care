@@ -1,20 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    line-height: 1.6;
 }
 
 .header {
-    background-color: #0077B6;
+    background-color: #005f73;
     color: white;
     padding: 20px 0;
     text-align: center;
 }
 
 .nav {
-    background-color: #023E8A;
+    background-color: #0a9396;
     text-align: center;
     padding: 10px 0;
 }
@@ -22,46 +23,59 @@ body {
 .nav a {
     color: white;
     text-decoration: none;
-    padding: 0 15px;
-    font-size: 16px;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .nav a:hover {
-    color: #ADE8F4;
+    color: #94d2bd;
 }
 
 .content {
     padding: 20px;
-    min-height: 400px; /* Adjust this value based on your content */
+    text-align: center;
 }
 
 .footer {
-    background-color: #0077B6;
+    background-color: #005f73;
     color: white;
     text-align: center;
     padding: 20px 0;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
 
 .container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 h1, h2 {
-    font-weight: normal;
+    font-weight: 600;
 }
 
-/* Add responsive design */
-@media screen and (max-width: 600px) {
-    .container {
-        width: 100%;
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .nav a {
+        padding: 10px 5px;
+        font-size: 16px;
     }
+
+    .header, .footer {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav {
+        padding: 20px 0;
+    }
+
     .nav a {
         display: block;
-        padding: 10px;
+        margin: 10px 0;
     }
 }
